@@ -113,3 +113,20 @@ div.case-study-images {
     border-radius: 50%;
     border: 4px solid black;
 }
+
+
+/* Contact Form */
+input.com-color {
+    background: #45ac9d;
+}
+
+.com-submit-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contact-us-wrapper {
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+}
