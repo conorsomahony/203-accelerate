@@ -130,3 +130,66 @@ input.com-color {
     margin-left: auto;
     margin-right: auto;
 }
+
+
+/* About Page */
+about-hero-content {
+    display: flex;
+    justify-content: center;
+}
+
+.about-hero-content p {
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    width: 60%;
+}
+
+.about-services-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.about-services-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.about-services-item:nth-child(odd) {
+    flex-direction: row;
+}
+
+.about-services-item:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.about-services-item div {
+    width: 60%;
+}
+
+.work-for-us-wrapper {
+    border-top: 1px solid #bfbfbf;
+    padding-top: 30px;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.work-for-us-wrapper div {
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.page-404 h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Spicy Rice', sans-serif;
+    font-weight: unset;
+}
